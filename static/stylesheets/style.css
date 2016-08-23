@@ -1,0 +1,254 @@
+.container{
+	max-width: 900px;
+	width: 100%;
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+
+.montserrat-upper{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+/*estilo del header*/
+
+h1{
+    padding-top: 100px;
+    font-size: 99px;
+	font-family: 'Lobster', cursive;
+    text-align: center;
+    display: flex;
+    /*
+    */
+}
+
+.open-sans{
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+    font-size: 15px;
+}
+
+.white{
+	color: white;
+}
+
+.black{
+	color: black;
+}
+
+
+/*
+definciones del nav
+*/
+
+nav{
+	background: #E8117F;
+}
+
+section{
+	padding: 65px 0; 
+	text-align: center;
+}
+
+nav ul{
+
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 1px; 
+}
+
+nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+
+nav a{
+	float: left;
+}
+
+/*
+definiciones del section
+*/
+
+.bkg-pink{
+	overflow: auto;
+	background: #E8117F;
+}
+
+.bkg-header{
+	height: 350px;
+	background: url('http://placehold.it/350x150');
+	background-size: cover;
+}
+
+.principal{
+	float: left;
+	height: 350px;
+	width: 49%
+}
+
+.secundario{
+	float: right;
+	overflow: auto;
+	width: 50%;
+	position: relative;
+}
+
+.secundario article{
+	float: left;
+	width: 49%;
+	height: 175px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.texto-formulario, .texto-formulario-primero{
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+    font-size: 20px;
+    line-height: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.texto-formulario-primero{
+	border-top: 1px solid #EEEEEE;
+}
+
+
+.texto-formulario-largo{
+	margin-top: 20px;
+	width: 90%;
+	height: 250px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+
+.izquierda{
+	text-align: left;
+}
+
+
+.boton{
+	padding: 20px;
+	margin: 17px;
+	border: none;
+	border-radius: 5px;
+}
+
+footer{
+	background: #E8117F;
+}
+
+
+.container .address{
+	width: 30%;
+	display: inline-block;
+	text-align: center; 
+}
+
+.container .socialmedia{
+	width: 69%;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.copyright{
+	text-align: center;
+	padding: 30px;
+	margin: 10px auto;
+	background: #222222;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+
+.footer-title{
+	font-size: 25px;
+	font-weight: 700;
+	margin: 40px;
+}
+
+.footer-normal-font{
+	font-size: 21px;
+	text-transform: capitalize;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.circulo {
+	display: inline-block;
+    text-align: center;
+    /*padding: 0;*/
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    color: white;
+    transition: 1s;
+    margin:5px;
+}
+
+@media screen and (max-width: 570px){
+
+	.principal img {
+    	width: 250px;
+    	height: 300px;
+    	box-sizing: border-box;
+	}
+
+	.secundario article img{
+		width: 120px;
+	}
+}
+
+
+@media screen and (max-width: 320px){
+
+	.container {
+	    max-width: 320px;
+	    width: 100%;
+	    overflow: auto;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	    margin: 0 auto;
+	    box-sizing: border-box;
+	}
+
+	.principal{
+		float: none;
+		width: 100%;
+	}
+
+	.principal img{
+		width: 300px;
+	}
+
+	.secundario{
+		float: none;
+		width: 100%;
+	}
+
